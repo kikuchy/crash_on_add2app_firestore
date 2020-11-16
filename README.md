@@ -21,17 +21,23 @@ And `firestore.settings = settings` will cause crash by the hard assertion.
 ```
 $ flutter doctor
 Doctor summary (to see all details, run flutter doctor -v):
-[✓] Flutter (Channel stable, 1.20.3, on Mac OS X 10.15.6 19G2021, locale ja-JP)
+[✓] Flutter (Channel stable, 1.22.4, on Mac OS X 10.15.7 19H15 darwin-x64,
+    locale ja-JP)
 
 [✓] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
-[✓] Xcode - develop for iOS and macOS (Xcode 11.7)
-[✓] Android Studio (version 4.0)
-[✓] IntelliJ IDEA Ultimate Edition (version 2020.2.1)
+[✓] Xcode - develop for iOS and macOS (Xcode 12.0)
+[!] Android Studio (version 4.1)
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+[!] Android Studio (version 4.1)
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+[✓] IntelliJ IDEA Ultimate Edition (version 2020.2.2)
 [✓] IntelliJ IDEA Community Edition (version 2019.2.3)
-[!] VS Code (version 1.49.0)
+[!] VS Code (version 1.51.0)
     ✗ Flutter extension not installed; install from
       https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
-[✓] Connected device (2 available)
+[✓] Connected device (1 available)
 
-! Doctor found issues in 1 category.
+! Doctor found issues in 3 categories.
 ```
